@@ -70,10 +70,10 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-                                        <li><a href="../Vista/Consultas.aspx?TipoNomina=Fijos">Fijos</a></li>
-										<li><a href="../Vista/Consultas.aspx?TipoNomina=Pasaje">Pasaje</a></li>
-										<li><a href="../Vista/Consultas.aspx?TipoNomina=NuevoCirco">Nuevo Circo</a></li>
-										<li><a href="../Vista/Consultas.aspx?TipoNomina=Accion">Acción Centralizada</a></li>
+                                        <li><a href="Vista/Consultas.aspx?TipoNomina=Fijos">Fijos</a></li>
+										<li><a href="Vista/Consultas.aspx?TipoNomina=Pasaje">Pasaje</a></li>
+										<li><a href="Vista/Consultas.aspx?TipoNomina=NuevoCirco">Nuevo Circo</a></li>
+										<li>Acción Centralizada (EN CONSTRUCCION)</li>
 
 									</ul>
 								</nav>

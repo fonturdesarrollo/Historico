@@ -25,7 +25,7 @@ namespace Historico
                 case 2:
                     return DBHelper.ExecuteDataSet("usp_Consultas_ObtenerHistoricoPersonaPasaje", dbParams);
                 case 3:
-                    return DBHelper.ExecuteDataSet("usp_Consultas_ObtenerHistoricoPersona", dbParams);
+                    return DBHelper.ExecuteDataSet("usp_Consultas_ObtenerHistoricoPersonaNuevoCirco", dbParams);
 
                 default:
                     return DBHelper.ExecuteDataSet("usp_Consultas_ObtenerHistoricoPersona", dbParams);

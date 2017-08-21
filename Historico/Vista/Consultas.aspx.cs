@@ -12,25 +12,34 @@ namespace Historico
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            try
             {
-                if(Request.QueryString["TipoNomina"]== "Fijos")
+                if (!IsPostBack)
                 {
-                    lblTitulo.Text = "Histórico nómina Fijos";
-                }
-                else if (Request.QueryString["TipoNomina"] == "Pasaje")
-                {
-                    lblTitulo.Text = "Histórico nómina Pasaje estudiantil";
-                }
-                else if (Request.QueryString["TipoNomina"] == "NuevoCirco")
-                {
-                    lblTitulo.Text = "Histórico nómina Nuevo circo";
-                }
-                else if (Request.QueryString["TipoNomina"] == "Accion")
-                {
-                    lblTitulo.Text = "Histórico nómina Acción centralizada";
+                    if (Request.QueryString["TipoNomina"] == "Fijos")
+                    {
+                        lblTitulo.Text = "Histórico nómina Fijos";
+                    }
+                    else if (Request.QueryString["TipoNomina"] == "Pasaje")
+                    {
+                        lblTitulo.Text = "Histórico nómina Pasaje estudiantil";
+                    }
+                    else if (Request.QueryString["TipoNomina"] == "NuevoCirco")
+                    {
+                        lblTitulo.Text = "Histórico nómina Nuevo circo";
+                    }
+                    else if (Request.QueryString["TipoNomina"] == "Accion")
+                    {
+                        lblTitulo.Text = "Histórico nómina Acción centralizada";
+                    }
                 }
             }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
         }
         private void CargarHistorico()
         {

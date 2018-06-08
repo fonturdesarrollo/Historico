@@ -73,7 +73,7 @@
                                         <li><a href="Vista/Consultas.aspx?TipoNomina=Fijos">Fijos</a></li>
 										<li><a href="Vista/Consultas.aspx?TipoNomina=Pasaje">Pasaje</a></li>
 										<li><a href="Vista/Consultas.aspx?TipoNomina=NuevoCirco">Nuevo Circo</a></li>
-										<li>Acción Centralizada (EN CONSTRUCCION)</li>
+                                        <li><a href="Vista/Consultas.aspx?TipoNomina=AccionCentralizada">Acción Centralizada</a></li>
 
 									</ul>
 								</nav>

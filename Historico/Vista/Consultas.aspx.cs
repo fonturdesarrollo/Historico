@@ -28,7 +28,7 @@ namespace Historico
                     {
                         lblTitulo.Text = "Histórico nómina Nuevo circo";
                     }
-                    else if (Request.QueryString["TipoNomina"] == "Accion")
+                    else if (Request.QueryString["TipoNomina"] == "AccionCentralizada")
                     {
                         lblTitulo.Text = "Histórico nómina Acción centralizada";
                     }
@@ -73,7 +73,7 @@ namespace Historico
             {
                 tipoNomina = 3;
             }
-            else if (Request.QueryString["TipoNomina"] == "Accion")
+            else if (Request.QueryString["TipoNomina"] == "AccionCentralizada")
             {
                 tipoNomina = 4;
             }
